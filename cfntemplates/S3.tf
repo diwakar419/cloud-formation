@@ -6,7 +6,7 @@ provider "aws" {
 data "aws_caller_identity" "current" {}
 
 resource "aws_s3_bucket" "bucket" {
-  bucket 	= "my-tf-test-bucket"
+  bucket 	= "diwakar-tf-bucket"
   acl    	= "public-read-write"
 
   versioning {
